@@ -51,7 +51,7 @@ SELECT
     SUM(collections) - SUM(budget) AS Profits_as_per_month
 FROM movies
 GROUP BY MONTH(release_date)
-ORDER BY COUNT(title) DESC, Profits_as_per_month DESC;
+ORDER BY No_of_movies DESC, Profits_as_per_month DESC;
 
 -- Query 5: Number of Days Movies Have Been Released
 SELECT
@@ -106,6 +106,7 @@ WITH Highest_profits_movies AS (
     ORDER BY profit_in_millions DESC
     LIMIT 10
 )
+-- SELECT * FROM Highest_profits_movies;
 -- How many times do the profits exceed the budget
 SELECT
     *,
