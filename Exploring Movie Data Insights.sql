@@ -31,7 +31,7 @@ SELECT
     genres,
     COUNT(title) AS no_of_movies,
     MAX(budget) AS maximum_budget,
-    MAX(collections) AS maximum_collections
+    MAX(collections) AS Highest_collections
 FROM movies
 GROUP BY genres
 ORDER BY no_of_movies DESC;
