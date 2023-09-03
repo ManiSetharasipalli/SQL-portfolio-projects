@@ -2,5 +2,5 @@
 
  |Medium Blog For this Project|
    |-| 
-   https://github.com/ManiSetharasipalli/SQL-portfolio-projects.git
+   https://medium.com/@manisetharasipalli/exploring-movie-data-insights-202c6c52a152
    
